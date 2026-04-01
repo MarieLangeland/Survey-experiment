@@ -10,7 +10,7 @@ website:
     background: "#4B2C3E"
     search: true
     right:
-      - text: "Project Information"
+      - text: "Home"
         href: index.qmd
       - text: "About Us"
         href: about.qmd

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Marie Langeland">
 
-<title>The Power of Party Cues</title>
+<title>Survey design – The Power of Party Cues</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,9 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -99,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -149,11 +147,25 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-survey" id="toc-our-survey" class="nav-link active" data-scroll-target="#our-survey">Our Survey</a></li>
-  <li><a href="#setting-up-the-experiment" id="toc-setting-up-the-experiment" class="nav-link" data-scroll-target="#setting-up-the-experiment">Setting Up the Experiment</a></li>
-  <li><a href="#meet-the-participants" id="toc-meet-the-participants" class="nav-link" data-scroll-target="#meet-the-participants">Meet the Participants</a></li>
-  <li><a href="#the-verdict-party-vs.-policy" id="toc-the-verdict-party-vs.-policy" class="nav-link" data-scroll-target="#the-verdict-party-vs.-policy">The Verdict: Party vs.&nbsp;Policy</a></li>
-  <li><a href="#the-deep-dive" id="toc-the-deep-dive" class="nav-link" data-scroll-target="#the-deep-dive">The Deep Dive</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#survey-distribution-and-descriptive-statistics" id="toc-survey-distribution-and-descriptive-statistics" class="nav-link" data-scroll-target="#survey-distribution-and-descriptive-statistics">Survey Distribution and Descriptive Statistics</a>
+  <ul class="collapse">
+  <li><a href="#survey-distribution" id="toc-survey-distribution" class="nav-link" data-scroll-target="#survey-distribution">Survey Distribution</a></li>
+  <li><a href="#respondents-profile" id="toc-respondents-profile" class="nav-link" data-scroll-target="#respondents-profile">Respondents Profile</a>
+  <ul class="collapse">
+  <li><a href="#gender-distribution" id="toc-gender-distribution" class="nav-link" data-scroll-target="#gender-distribution">Gender Distribution</a></li>
+  <li><a href="#age-distribution" id="toc-age-distribution" class="nav-link" data-scroll-target="#age-distribution">Age Distribution</a></li>
+  <li><a href="#domicile-distribution" id="toc-domicile-distribution" class="nav-link" data-scroll-target="#domicile-distribution">Domicile Distribution</a></li>
+  <li><a href="#social-media-usage-distribution" id="toc-social-media-usage-distribution" class="nav-link" data-scroll-target="#social-media-usage-distribution">Social Media Usage Distribution</a></li>
+  <li><a href="#political-interest-distribution" id="toc-political-interest-distribution" class="nav-link" data-scroll-target="#political-interest-distribution">Political Interest Distribution</a></li>
+  </ul></li>
+  <li><a href="#experimental-treatment-and-post-treatment-questions" id="toc-experimental-treatment-and-post-treatment-questions" class="nav-link" data-scroll-target="#experimental-treatment-and-post-treatment-questions">Experimental Treatment and Post-Treatment Questions</a>
+  <ul class="collapse">
+  <li><a href="#inheritance-tax-support-distribution" id="toc-inheritance-tax-support-distribution" class="nav-link" data-scroll-target="#inheritance-tax-support-distribution">Inheritance Tax Support Distribution</a></li>
+  <li><a href="#party-affiliation-distribution" id="toc-party-affiliation-distribution" class="nav-link" data-scroll-target="#party-affiliation-distribution">Party Affiliation Distribution</a></li>
+  <li><a href="#manipulation-check" id="toc-manipulation-check" class="nav-link" data-scroll-target="#manipulation-check">Manipulation Check</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -162,14 +174,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Power of Party Cues</h1>
-<p class="subtitle lead">Same Policy, Different Party - Do Opinions Change?</p>
+<h1 class="title">Survey design</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.linkedin.com/in/marie-langeland">Marie Langeland</a> </p>
+          </div>
+  </div>
     
   
     
@@ -180,161 +197,171 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="our-survey" class="level2">
-<h2 class="anchored" data-anchor-id="our-survey">Our Survey</h2>
-<p><img src="stortinget.jpg" class="img-fluid" style="width:100.0%"></p>
-<p>We - six 2nd and 3rd year political science students at the University of Stavanger - wanted to find out how young people’s opinions are shaped by political parties. Do people respond to the policy itself, or to the party presenting it?</p>
-<p>To answer this, we conducted a survey experiment. We created two versions of the same survey, identical in all aspects except one: towards the end, the respondents were presented with a statement about <strong>inheritance tax</strong>. In one version it was attributed to <em>Arbeiderpartiet</em> (the Labour Party), and in the other to <em>Fremskrittspartiet</em> (the Progress Party).</p>
-<p>The aim of this survey was to find out if - and how - responses vary depending on which party presents the statement about <strong>inheritance tax</strong>. Labour Party (Ap) voters would agree more if Ap presented the statement, and Progress Party (Frp) voters would agree more if Frp presented it. We also had one additional theory: voters on the left of the political spectrum would be more skeptical when Frp presented the statement, and the same applied to right-leaning voters when Ap presented it.</p>
-</section>
-<section id="setting-up-the-experiment" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-the-experiment">Setting Up the Experiment</h2>
-<p>We knew early on that we wanted to explore how the political party presenting a policy affects people’s opinions. We chose Ap and Frp to be the two parties presenting the policy, because they are (at the time of this survey experiment) the two largest parties in Norwegian politics, and they are at opposite sides of the political spectrum <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="partier.webp" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Parties in the Norwegian Parliament. Red rose = Ap, Blue apple = Frp</figcaption>
-</figure>
-</div>
-<p>We chose <strong>inheritance</strong> tax as the policy to present because it had to be a policy that both Ap and Frp actually agreed on, and it is a <em>simple</em> policy. Everyone knows what <strong>inheritance tax</strong> is, and if for some surprising reason they do not (which would be a bit concerning), they will know what it is immediately from its name.</p>
-<p>Both survey versions included a few general questions about age, gender, social media usage, and which political party they feel closest to. The questions were presented in the same order and worded identically in both versions - down to the sentence structure, punctuation, and formatting. The only difference was the treatment question:</p>
-<blockquote class="blockquote">
-<p><em>The Labour Party believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
-</blockquote>
-<p>and</p>
-<blockquote class="blockquote">
-<p><em>The Progress Party believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
-</blockquote>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>(A/B test)</p>
+<p>This section documents the experimental design and the composition of the survey sample. The goal of this study is to examine how party cues influence public opinion - specifically regarding inheritance tax among young people.</p>
+<p>We created two different questionnaires. The respondents were randomly assigned to one of two versions: one where the inheritance tax statement was attributed to The Labour Party (Ap), and another where it was attributed to The Progress Party (Frp). In all other aspects, the two survey versions were identical.</p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="aptreatment.png" class="lightbox" data-gallery="treatment" title="Ap treatment question"><img src="aptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Ap treatment question"></a></p>
-<figcaption>Ap treatment question</figcaption>
+<p><a href="aptreatment.png" class="lightbox" data-gallery="treatment" title="Figure 1: Ap treatment question"><img src="aptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Figure 1: Ap treatment question"></a></p>
+<figcaption>Figure 1: Ap treatment question</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="frptreatment.png" class="lightbox" data-gallery="treatment" title="Frp treatment question"><img src="frptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Frp treatment question"></a></p>
-<figcaption>Frp treatment question</figcaption>
+<p><a href="frptreatment.png" class="lightbox" data-gallery="treatment" title="Figure 2: Frp treatment question"><img src="frptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Figure 2: Frp treatment question"></a></p>
+<figcaption>Figure 2: Frp treatment question</figcaption>
 </figure>
-</div>
-</div>
-</div>
-</div>
-<p>To direct the respondents to one of the two survey versions, we created a <em>landing page</em> containing a start button randomly assigning each respondent to one of the versions.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Landing page] --&gt; B(Randomization)
-  B --&gt; C[Survey version 1]
-  B --&gt; D[Survey version 2]
-  
-  style A color:#4B2C3E
-  style B color:#4B2C3E
-  style C color:#4B2C3E
-  style D color:#4B2C3E
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="meet-the-participants" class="level2">
-<h2 class="anchored" data-anchor-id="meet-the-participants">Meet the Participants</h2>
-<p>In total, 315 participants within our target group (25 years or younger) completed the survey. Respondents over the age of 25 were excluded from the analysis, but their number was small as we targeted young participants.</p>
-<p>Among the participants, 210 (67%) are female and 102 (32%) are male. Most are 18 years old (34%), and 84% are between 16 and 21. They come from a variety of residential areas, ranging from big cities to farms in the countryside, as shown in the domicile distribution below. Their level of political interest is moderate, with an average slightly above the midpoint of the scale (mean = 3.01).</p>
-<div class="columns">
-<div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="columns">
-<div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="the-verdict-party-vs.-policy" class="level2">
-<h2 class="anchored" data-anchor-id="the-verdict-party-vs.-policy">The Verdict: Party vs.&nbsp;Policy</h2>
-<p>Do people respond to the policy itself or to the party presenting it? Are there differences in responses depending on whether Ap or Frp presents the statement?</p>
-<p>Looking at the graphs below, we can observe the overall effect of Ap and Frp presenting the statement about <strong>inheritance tax</strong>. People agree slightly more with the statement that there should be no tax on inheritance when it is presented by Ap (mean = 3.5) compared with Frp (mean = 3.3). This could, at first glance, reflect a small degree of skepticism towards Frp.</p>
-<p>However, before we can say anything for sure, we need to check whether the differences we see are real or just random variation in our sample. Calculating the <strong>confidence intervals</strong> helps us see how much of what appears to be an effect could actually be due to random sampling variation. Looking at the graph below, we can already spot that some of the differences are likely just random noise.</p>
-<p>Looking at the coefficient plot (Graph b), we can see that the estimated effect of the Frp treatment (compared to Ap) is approximately -0.2. However, the error bar representing the 95% confidence interval crosses the dashed zero-line. This means that the difference is <strong>not statistically significant</strong>. In other words, we cannot conclude that the party cue has a decisive impact on the respondents’ opinions on <strong>inheritance tax</strong>; we cannot with confidence say that the -0.2 difference is not just simply random noise.</p>
-<div class="cell quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<section id="survey-distribution-and-descriptive-statistics" class="level1">
+<h1>Survey Distribution and Descriptive Statistics</h1>
+<section id="survey-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="survey-distribution">Survey Distribution</h2>
+<p>To ensure random assignment to the two survey versions, we developed a landing page containing a randomization function that directed respondents to one of the two versions with equal probability. The landing page was made to be responsive, ensuring that it displayed correctly on all devices.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>a) Opinions on Inheritance Tax Across Party Cues</figcaption>
+<p><a href="landingpage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure 3: The survey landing page used to randomize respondents"><img src="landingpage.png" class="img-fluid figure-img" style="width:100.0%" alt="Figure 3: The survey landing page used to randomize respondents"></a></p>
+<figcaption>Figure 3: The survey landing page used to randomize respondents</figcaption>
 </figure>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-8-2.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>b) Effect of Seeing Frp (Compared to Ap)</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-deep-dive" class="level2">
-<h2 class="anchored" data-anchor-id="the-deep-dive">The Deep Dive</h2>
-<p>In summary, our experiment shows that within our sample, participants agreed slightly more with the statement about <strong>inheritance tax</strong> when Ap was the party presenting it compared to Frp. However, while we observed slight variations in support based on the party cue, the difference was <strong>not statistically significant</strong>. We cannot with confidence generalise this to the wider population.</p>
-<p><strong>Our analysis doesn’t stop here!</strong> For a deeper dive into how we designed the experiment, <a href="./collection.html">collected</a> the data, and the <a href="./background.html">theory</a> behind our hypotheses, check out the dedicated sections on this website. You can also find more in-depth results - including how the cues affected voters depending on which party they feel closest to - under our <a href="./surveydesign.html">survey design</a> and in-depth <a href="./results.html">analysis</a> pages.</p>
+<p>To verify the success of the randomization procedure, we collected background data on gender, age, domicile, social media usage, and political interest. In addition to serving as a balance check, these factors function as explanatory variables in the subsequent analysis. As expected, the answer distribution appears balanced across the two survey versions, suggesting that any observed differences in the dependent variable are likely due to the experimental treatment rather than pre-existing differences between the groups.</p>
+<p>Ideally, the number of respondents in each survey version should be approximately equal. As illustrated in the graph below, the final sample consisted of 315 respondents: 143 were assigned to The Progress Party (Frp) version and 172 to The Labour Party (Ap) version. Although the Ap version received 29 more respondents than the Frp version, this difference is within what can be considered normal random variation and does not indicate a failure of the randomization procedure.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
+<div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Teaser From The More In-Depth Results Page</figcaption>
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="respondents-profile" class="level2">
+<h2 class="anchored" data-anchor-id="respondents-profile">Respondents Profile</h2>
+<section id="gender-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="gender-distribution">Gender Distribution</h3>
+<p><strong>Question:</strong> <em>What is your gender?</em></p>
+<p><strong>Options:</strong> <em>Female, Male, Other/Refusal.</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="age-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="age-distribution">Age Distribution</h3>
+<p><strong>Question:</strong> <em>What is your age?</em></p>
+<p>A few respondents were over the age of 25. Since our target group is young people, we excluded all respondents above this age. Consequently, only a small number of responses were removed. No one over the age of 25 is included in any analyses or in the graphs visualizing the differences between survey distributions.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="domicile-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="domicile-distribution">Domicile Distribution</h3>
+<p><strong>Question:</strong> <em>Which of these categories best describes the area where you live?</em></p>
+<p><strong>Options:</strong> <em>A big city, Suburbs or outskirts of big city, Town or small city, Country village, Farm or home in countryside</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="social-media-usage-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="social-media-usage-distribution">Social Media Usage Distribution</h3>
+<p><strong>Question:</strong> <em>How many hours per day do you spend on social media?</em></p>
+<p><strong>Options:</strong> <em>0-10 (hours per day)</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="political-interest-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="political-interest-distribution">Political Interest Distribution</h3>
+<p><strong>Question:</strong> <em>How interested are you in politics?</em></p>
+<p><strong>Options:</strong> <em>0 = Not interested at all, 5 = Very interested</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="experimental-treatment-and-post-treatment-questions" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-treatment-and-post-treatment-questions">Experimental Treatment and Post-Treatment Questions</h2>
+<section id="inheritance-tax-support-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="inheritance-tax-support-distribution">Inheritance Tax Support Distribution</h3>
+<p><strong>Question:</strong> <em>[The Labour Party / The Progress Party] believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
+<p><strong>Options:</strong> <em>0 = Strongly disagree, 5 = Strongly agree</em></p>
+<p>As shown in the figure below, there is noticeable variation between the two survey versions. This is particularly evident in the distribution of responses at <em>2</em> and <em>4</em>, where the frequencies differ substantially between the two groups. This pattern is consistent with the expectation that respondents’ attitudes are influenced by the party associated with the policy proposal.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="party-affiliation-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="party-affiliation-distribution">Party Affiliation Distribution</h3>
+<p><strong>Question:</strong> <em>Which political party do you feel closest to?</em></p>
+<p><strong>Options:</strong> <em>Rødt (R), Sosialistisk Venstreparti (SV), Arbeiderpartiet (Ap), Venstre (V), Kristelig Folkeparti (Krf), Senterpartiet (Sp), Høyre (H), Fremskrittspartiet (Frp), Miljøpartiet De Grønne (MDG), Other, Refusal, Don’t know</em></p>
+<p>This question was asked after the treatment, which may explain why more respondents chose The Labour Party (Ap) following the Ap treatment than following the Frp treatment, as the party was still fresh in their memory. The order of the answer options for this question was randomized, preventing one party from receiving more selections simply because it appeared first.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="manipulation-check" class="level3">
+<h3 class="anchored" data-anchor-id="manipulation-check">Manipulation Check</h3>
+<p><strong>Question:</strong> <em>Which party made the statement you just read about inheritance tax?</em></p>
+<p><strong>Options:</strong> <em>The Labour Party (Ap), The Progress Party (Frp), Don’t know</em></p>
+<p>Here, the responses have been recoded as either correct or incorrect. As shown in the figure, a larger share of respondents answered incorrectly in the Ap survey version, identifying The Progress Party (Frp) as the source of the statement when it was in fact made by The Labour Party (Ap). This is not surprising, as Frp is more strongly associated with opposition to taxation than Ap.</p>
+<p>This figure also shows that, out of the total 315 respondents, 84 either answered incorrectly or selected <em>Don’t know</em>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="surveydesign_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -342,14 +369,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 </section>
+</section>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Picture from <a href="https://undervisning.stortinget.no/partier/partiguide-for-videregaende/" class="uri">https://undervisning.stortinget.no/partier/partiguide-for-videregaende/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

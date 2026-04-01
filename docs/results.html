@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Marie Langeland">
 
-<title>The Power of Party Cues</title>
+<title>Results and Analysis – The Power of Party Cues</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,9 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a551cd45bd8e88a7cd7977afdc7ecb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,9 +69,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -99,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -149,11 +144,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#our-survey" id="toc-our-survey" class="nav-link active" data-scroll-target="#our-survey">Our Survey</a></li>
-  <li><a href="#setting-up-the-experiment" id="toc-setting-up-the-experiment" class="nav-link" data-scroll-target="#setting-up-the-experiment">Setting Up the Experiment</a></li>
-  <li><a href="#meet-the-participants" id="toc-meet-the-participants" class="nav-link" data-scroll-target="#meet-the-participants">Meet the Participants</a></li>
-  <li><a href="#the-verdict-party-vs.-policy" id="toc-the-verdict-party-vs.-policy" class="nav-link" data-scroll-target="#the-verdict-party-vs.-policy">The Verdict: Party vs.&nbsp;Policy</a></li>
-  <li><a href="#the-deep-dive" id="toc-the-deep-dive" class="nav-link" data-scroll-target="#the-deep-dive">The Deep Dive</a></li>
+  <li><a href="#robustness-check" id="toc-robustness-check" class="nav-link active" data-scroll-target="#robustness-check">Robustness Check</a></li>
   </ul>
 </nav>
     </div>
@@ -162,14 +153,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">The Power of Party Cues</h1>
-<p class="subtitle lead">Same Policy, Different Party - Do Opinions Change?</p>
+<h1 class="title">Results and Analysis</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://www.linkedin.com/in/marie-langeland">Marie Langeland</a> </p>
+          </div>
+  </div>
     
   
     
@@ -180,161 +176,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="our-survey" class="level2">
-<h2 class="anchored" data-anchor-id="our-survey">Our Survey</h2>
-<p><img src="stortinget.jpg" class="img-fluid" style="width:100.0%"></p>
-<p>We - six 2nd and 3rd year political science students at the University of Stavanger - wanted to find out how young people’s opinions are shaped by political parties. Do people respond to the policy itself, or to the party presenting it?</p>
-<p>To answer this, we conducted a survey experiment. We created two versions of the same survey, identical in all aspects except one: towards the end, the respondents were presented with a statement about <strong>inheritance tax</strong>. In one version it was attributed to <em>Arbeiderpartiet</em> (the Labour Party), and in the other to <em>Fremskrittspartiet</em> (the Progress Party).</p>
-<p>The aim of this survey was to find out if - and how - responses vary depending on which party presents the statement about <strong>inheritance tax</strong>. Labour Party (Ap) voters would agree more if Ap presented the statement, and Progress Party (Frp) voters would agree more if Frp presented it. We also had one additional theory: voters on the left of the political spectrum would be more skeptical when Frp presented the statement, and the same applied to right-leaning voters when Ap presented it.</p>
-</section>
-<section id="setting-up-the-experiment" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-the-experiment">Setting Up the Experiment</h2>
-<p>We knew early on that we wanted to explore how the political party presenting a policy affects people’s opinions. We chose Ap and Frp to be the two parties presenting the policy, because they are (at the time of this survey experiment) the two largest parties in Norwegian politics, and they are at opposite sides of the political spectrum <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="partier.webp" class="img-fluid figure-img" style="width:100.0%"></p>
-<figcaption>Parties in the Norwegian Parliament. Red rose = Ap, Blue apple = Frp</figcaption>
-</figure>
-</div>
-<p>We chose <strong>inheritance</strong> tax as the policy to present because it had to be a policy that both Ap and Frp actually agreed on, and it is a <em>simple</em> policy. Everyone knows what <strong>inheritance tax</strong> is, and if for some surprising reason they do not (which would be a bit concerning), they will know what it is immediately from its name.</p>
-<p>Both survey versions included a few general questions about age, gender, social media usage, and which political party they feel closest to. The questions were presented in the same order and worded identically in both versions - down to the sentence structure, punctuation, and formatting. The only difference was the treatment question:</p>
-<blockquote class="blockquote">
-<p><em>The Labour Party believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
-</blockquote>
-<p>and</p>
-<blockquote class="blockquote">
-<p><em>The Progress Party believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
-</blockquote>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="aptreatment.png" class="lightbox" data-gallery="treatment" title="Ap treatment question"><img src="aptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Ap treatment question"></a></p>
-<figcaption>Ap treatment question</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="frptreatment.png" class="lightbox" data-gallery="treatment" title="Frp treatment question"><img src="frptreatment.png" class="img-fluid figure-img" style="height: 350px; object-fit: contain;" alt="Frp treatment question"></a></p>
-<figcaption>Frp treatment question</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p>To direct the respondents to one of the two survey versions, we created a <em>landing page</em> containing a start button randomly assigning each respondent to one of the versions.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Landing page] --&gt; B(Randomization)
-  B --&gt; C[Survey version 1]
-  B --&gt; D[Survey version 2]
-  
-  style A color:#4B2C3E
-  style B color:#4B2C3E
-  style C color:#4B2C3E
-  style D color:#4B2C3E
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="meet-the-participants" class="level2">
-<h2 class="anchored" data-anchor-id="meet-the-participants">Meet the Participants</h2>
-<p>In total, 315 participants within our target group (25 years or younger) completed the survey. Respondents over the age of 25 were excluded from the analysis, but their number was small as we targeted young participants.</p>
-<p>Among the participants, 210 (67%) are female and 102 (32%) are male. Most are 18 years old (34%), and 84% are between 16 and 21. They come from a variety of residential areas, ranging from big cities to farms in the countryside, as shown in the domicile distribution below. Their level of political interest is moderate, with an average slightly above the midpoint of the scale (mean = 3.01).</p>
-<div class="columns">
-<div class="column">
+<p>(IKKE FERDIG)</p>
+<p>(legg til predictions summary graf også)</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="results_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
-</div><div class="column">
+<section id="robustness-check" class="level2">
+<h2 class="anchored" data-anchor-id="robustness-check">Robustness Check</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="columns">
-<div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-verdict-party-vs.-policy" class="level2">
-<h2 class="anchored" data-anchor-id="the-verdict-party-vs.-policy">The Verdict: Party vs.&nbsp;Policy</h2>
-<p>Do people respond to the policy itself or to the party presenting it? Are there differences in responses depending on whether Ap or Frp presents the statement?</p>
-<p>Looking at the graphs below, we can observe the overall effect of Ap and Frp presenting the statement about <strong>inheritance tax</strong>. People agree slightly more with the statement that there should be no tax on inheritance when it is presented by Ap (mean = 3.5) compared with Frp (mean = 3.3). This could, at first glance, reflect a small degree of skepticism towards Frp.</p>
-<p>However, before we can say anything for sure, we need to check whether the differences we see are real or just random variation in our sample. Calculating the <strong>confidence intervals</strong> helps us see how much of what appears to be an effect could actually be due to random sampling variation. Looking at the graph below, we can already spot that some of the differences are likely just random noise.</p>
-<p>Looking at the coefficient plot (Graph b), we can see that the estimated effect of the Frp treatment (compared to Ap) is approximately -0.2. However, the error bar representing the 95% confidence interval crosses the dashed zero-line. This means that the difference is <strong>not statistically significant</strong>. In other words, we cannot conclude that the party cue has a decisive impact on the respondents’ opinions on <strong>inheritance tax</strong>; we cannot with confidence say that the -0.2 difference is not just simply random noise.</p>
-<div class="cell quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>a) Opinions on Inheritance Tax Across Party Cues</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-8-2.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>b) Effect of Seeing Frp (Compared to Ap)</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-deep-dive" class="level2">
-<h2 class="anchored" data-anchor-id="the-deep-dive">The Deep Dive</h2>
-<p>In summary, our experiment shows that within our sample, participants agreed slightly more with the statement about <strong>inheritance tax</strong> when Ap was the party presenting it compared to Frp. However, while we observed slight variations in support based on the party cue, the difference was <strong>not statistically significant</strong>. We cannot with confidence generalise this to the wider population.</p>
-<p><strong>Our analysis doesn’t stop here!</strong> For a deeper dive into how we designed the experiment, <a href="./collection.html">collected</a> the data, and the <a href="./background.html">theory</a> behind our hypotheses, check out the dedicated sections on this website. You can also find more in-depth results - including how the cues affected voters depending on which party they feel closest to - under our <a href="./surveydesign.html">survey design</a> and in-depth <a href="./results.html">analysis</a> pages.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption>Teaser From The More In-Depth Results Page</figcaption>
+<p><img src="results_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
@@ -343,13 +202,7 @@ ul.task-list li input[type="checkbox"] {
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Picture from <a href="https://undervisning.stortinget.no/partier/partiguide-for-videregaende/" class="uri">https://undervisning.stortinget.no/partier/partiguide-for-videregaende/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -751,38 +604,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

@@ -1,8 +1,8 @@
 {
-  "hash": "fe9fa7832489301371d7bd479ea34a40",
+  "hash": "059934f887d1bf22c659484f0d9ea5cc",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Results and Analysis\"\nauthor: \"[Marie Langeland](https://www.linkedin.com/in/marie-langeland)\"\nformat: html\n---\n\n(legg til predictions summary graf også)\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n## Robustness Check\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n",
+    "markdown": "---\ntitle: \"Results and Analysis\"\nauthor: \"[Marie Langeland](https://www.linkedin.com/in/marie-langeland)\"\nformat: html\n---\n\n(IKKE FERDIG)\n\n\n(legg til predictions summary graf også)\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n## Robustness Check\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n",
     "supporting": [
       "results_files"
     ],

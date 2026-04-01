@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "surveydesign.html",
+    "href": "surveydesign.html",
+    "title": "Survey design",
+    "section": "",
+    "text": "(A/B test)\nThis section documents the experimental design and the composition of the survey sample. The goal of this study is to examine how party cues influence public opinion - specifically regarding inheritance tax among young people.\nWe created two different questionnaires. The respondents were randomly assigned to one of two versions: one where the inheritance tax statement was attributed to The Labour Party (Ap), and another where it was attributed to The Progress Party (Frp). In all other aspects, the two survey versions were identical.\n\n\n\n\n\n\nFigure 1: Ap treatment question\n\n\n\n\n\n\n\nFigure 2: Frp treatment question"
+  },
+  {
+    "objectID": "surveydesign.html#survey-distribution",
+    "href": "surveydesign.html#survey-distribution",
+    "title": "Survey design",
+    "section": "Survey Distribution",
+    "text": "Survey Distribution\nTo ensure random assignment to the two survey versions, we developed a landing page containing a randomization function that directed respondents to one of the two versions with equal probability. The landing page was made to be responsive, ensuring that it displayed correctly on all devices.\n\n\n\nFigure 3: The survey landing page used to randomize respondents\n\n\nTo verify the success of the randomization procedure, we collected background data on gender, age, domicile, social media usage, and political interest. In addition to serving as a balance check, these factors function as explanatory variables in the subsequent analysis. As expected, the answer distribution appears balanced across the two survey versions, suggesting that any observed differences in the dependent variable are likely due to the experimental treatment rather than pre-existing differences between the groups.\nIdeally, the number of respondents in each survey version should be approximately equal. As illustrated in the graph below, the final sample consisted of 315 respondents: 143 were assigned to The Progress Party (Frp) version and 172 to The Labour Party (Ap) version. Although the Ap version received 29 more respondents than the Frp version, this difference is within what can be considered normal random variation and does not indicate a failure of the randomization procedure."
+  },
+  {
+    "objectID": "surveydesign.html#respondents-profile",
+    "href": "surveydesign.html#respondents-profile",
+    "title": "Survey design",
+    "section": "Respondents Profile",
+    "text": "Respondents Profile\n\nGender Distribution\nQuestion: What is your gender?\nOptions: Female, Male, Other/Refusal.\n\n\n\n\n\n\n\n\n\n\n\nAge Distribution\nQuestion: What is your age?\nA few respondents were over the age of 25. Since our target group is young people, we excluded all respondents above this age. Consequently, only a small number of responses were removed. No one over the age of 25 is included in any analyses or in the graphs visualizing the differences between survey distributions.\n\n\n\n\n\n\n\n\n\n\n\nDomicile Distribution\nQuestion: Which of these categories best describes the area where you live?\nOptions: A big city, Suburbs or outskirts of big city, Town or small city, Country village, Farm or home in countryside\n\n\n\n\n\n\n\n\n\n\n\nSocial Media Usage Distribution\nQuestion: How many hours per day do you spend on social media?\nOptions: 0-10 (hours per day)\n\n\n\n\n\n\n\n\n\n\n\nPolitical Interest Distribution\nQuestion: How interested are you in politics?\nOptions: 0 = Not interested at all, 5 = Very interested"
+  },
+  {
+    "objectID": "surveydesign.html#experimental-treatment-and-post-treatment-questions",
+    "href": "surveydesign.html#experimental-treatment-and-post-treatment-questions",
+    "title": "Survey design",
+    "section": "Experimental Treatment and Post-Treatment Questions",
+    "text": "Experimental Treatment and Post-Treatment Questions\n\nInheritance Tax Support Distribution\nQuestion: [The Labour Party / The Progress Party] believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?\nOptions: 0 = Strongly disagree, 5 = Strongly agree\nAs shown in the figure below, there is noticeable variation between the two survey versions. This is particularly evident in the distribution of responses at 2 and 4, where the frequencies differ substantially between the two groups. This pattern is consistent with the expectation that respondents’ attitudes are influenced by the party associated with the policy proposal.\n\n\n\n\n\n\n\n\n\n\n\nParty Affiliation Distribution\nQuestion: Which political party do you feel closest to?\nOptions: Rødt (R), Sosialistisk Venstreparti (SV), Arbeiderpartiet (Ap), Venstre (V), Kristelig Folkeparti (Krf), Senterpartiet (Sp), Høyre (H), Fremskrittspartiet (Frp), Miljøpartiet De Grønne (MDG), Other, Refusal, Don’t know\nThis question was asked after the treatment, which may explain why more respondents chose The Labour Party (Ap) following the Ap treatment than following the Frp treatment, as the party was still fresh in their memory. The order of the answer options for this question was randomized, preventing one party from receiving more selections simply because it appeared first.\n\n\n\n\n\n\n\n\n\n\n\nManipulation Check\nQuestion: Which party made the statement you just read about inheritance tax?\nOptions: The Labour Party (Ap), The Progress Party (Frp), Don’t know\nHere, the responses have been recoded as either correct or incorrect. As shown in the figure, a larger share of respondents answered incorrectly in the Ap survey version, identifying The Progress Party (Frp) as the source of the statement when it was in fact made by The Labour Party (Ap). This is not surprising, as Frp is more strongly associated with opposition to taxation than Ap.\nThis figure also shows that, out of the total 315 respondents, 84 either answered incorrectly or selected Don’t know."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "The Power of Party Cues",
@@ -47,5 +75,117 @@
     "title": "The Power of Party Cues",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nPicture from https://undervisning.stortinget.no/partier/partiguide-for-videregaende/↩︎"
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Theory and Research Design",
+    "section": "",
+    "text": "(IKKE FERDIG)"
+  },
+  {
+    "objectID": "background.html#background-and-purpose",
+    "href": "background.html#background-and-purpose",
+    "title": "Theory and Research Design",
+    "section": "Background and Purpose",
+    "text": "Background and Purpose\nThe purpose of the survey is to examine whether individuals’ attitudes toward a political issue are influenced by the political party it is associated with. In other words: are opinions about policy proposals affected by who presents the proposal, when the content of the proposal is otherwise identical?"
+  },
+  {
+    "objectID": "background.html#theoretical-perspective",
+    "href": "background.html#theoretical-perspective",
+    "title": "Theory and Research Design",
+    "section": "Theoretical Perspective",
+    "text": "Theoretical Perspective\nFrom a psychological perspective, people often rely on their existing thoughts and views when forming opinions. In some cases, this happens automatically, but in others we consciously consider which arguments are relevant. Framing influences which thoughts are available, considered relevant and easy to recall. The stronger or more relevant a frame appears, the more likely it is to affect our opinions (Chong & Druckman, 2007).\nIn this scenario, the respondents might automatically choose their answer based on the party that is mentioned. This emphasizes that we often tend to use thoughts that are available and easy to recall. (!!SETNING OM MOTIVATED REASONING!!). Sometimes this happens automatically, but at the end of the day, framing influences which thoughts seem most relevant."
+  },
+  {
+    "objectID": "background.html#research-design",
+    "href": "background.html#research-design",
+    "title": "Theory and Research Design",
+    "section": "Research Design",
+    "text": "Research Design\nTo answer this research question, we conducted an experiment. Since we wanted to determine whether the party promoting a proposal influences respondents’ attitudes toward it, we needed to select an issue on which both parties’ actual positions are aligned. It was also important that a considerable (political) distance existed between the two parties. This gives us a better basis for assessing whether the results that follow are actually due to the proposal’s association with the party.\nThe political issue chosen was inheritance tax, and the Labour Party (Arbeiderpartiet) and the Progress Party (Fremskrittspartiet) were selected as the two political parties. Inheritance tax has proven to be a latent political issue — including among our target group, young people. We considered these choices well-suited, partly because they are a) engaging enough to motivate respondents to participate in the survey, and b) an issue on which the Labour Party and the Progress Party are not necessarily perceived as being in agreement at the outset. Furthermore, the Labour Party and the Progress Party are in reality in agreement on the proposal, and therefore also satisfy this requirement.\n\nExperimental Treatment\nTo test our hypotheses, we developed a simple survey design in the form of an experiment. Respondents were sent or presented with a QR code leading to a website, where they were randomly assigned (50% probability each) to identical surveys, differing only in our experimental stimulus. The sole difference is therefore whether the claim about inheritance tax is attributed to the Labour Party or the Progress Party. The treatment stimulus was administered by presenting the claim, followed by the question:\n\n“[The Labour Party / The Progress Party] believes that there should be no fee or tax on inheriting large assets. To what extent do you agree or disagree with this statement?” (scale: 1 = Strongly disagree and 5 = Strongly agree).\n\nIn addition, respondents were asked standard demographic control variables common in political surveys: gender, place of residence, age, social media use, and political interest. Respondents also indicated their preferred political party: Which political party do you feel closest to?"
+  },
+  {
+    "objectID": "background.html#hypotheses",
+    "href": "background.html#hypotheses",
+    "title": "Theory and Research Design",
+    "section": "Hypotheses",
+    "text": "Hypotheses\nBased on the theory of source framing and motivated reasoning, we derived four concrete hypotheses:\nH1: Voters who identify the Labour Party as the party they feel most closely affiliated with will be more favorable toward the proposal when the Labour Party is named as its advocate.\nH2: Voters who identify the Progress Party as the party they feel most closely affiliated with will be more favorable toward the proposal when the Progress Party is named as its advocate.\nH3: Voters who place themselves on the right side of the left-right political scale express more negative feelings toward the proposal when the Labour Party is named as its advocate.\nH4: Voters who place themselves on the left side of the left-right political scale express more negative feelings toward the proposal when the Progress Party is named as its advocate.\nFurthermore, we also expected the overall support for inheritance tax to be lower for parties on the right, while parties on the left show more support for the policy. The Labour Party should therefore in general, according to our prediction, be less favorable toward the proposal than voters of the Progress Party. This expectation holds even though both parties currently share this position, as voters on the left are typically more supportive of redistributive taxation, whereas voters on the right tend to favor lower taxation."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About us",
+    "section": "",
+    "text": "(IKKE FERDIG)\nWe are second- and third-year Bachelor’s students in Political Science at the University of Stavanger. This project was carried out as a voluntary project under the supervision of Associate Professor Carlo Knotz."
+  },
+  {
+    "objectID": "about.html#project-members",
+    "href": "about.html#project-members",
+    "title": "About us",
+    "section": "Project Members",
+    "text": "Project Members\n\n\nAud Statle Nævdal\n3rd year Bachelor student (at the time of the project).\nAud’s contributions include:\n\nExecuting the data collection strategy.\nContributing to the development and refinement of the survey questions.\nContributing to the authoring of the analysis and results section.\n\n\nAwaatef Hassan\n2nd year Bachelor student (at the time of the project).\nAwaatef’s contributions include:\n\nExecuting the data collection strategy.\nContributing to the development and refinement of the survey questions.\nContributing to the authoring of the theoretical framework (framing theory).\nAuthoring the project information and introductory content for the homepage.\n\n\n\n\n\n\nMarie Langeland\n3rd year Bachelor student (at the time of the project).\nMarie’s contributions include:\n\nDeveloping the responsive landing page and randomization function for assigning respondents to the two survey versions.\nExecuting the data collection strategy.\nCreating and managing the surveys.\nContributing to the development and refinement of the survey questions.\nManaging data cleaning, including filtering and recoding variables for analysis.\nPerforming the statistical analysis and data visualization in R.\nBuilding and managing the Quarto website for the project.\nContributing to the authoring of the theoretical framework.\nAuthoring the methodology and experimental design section.\nContributing to the authoring of the analysis and results section.\n\n\nNorman Sunde\n2nd year Bachelor student (at the time of the project).\nNorman’s contributions include:\n\nExecuting the data collection strategy.\nContributing to the development and refinement of the survey questions.\nAuthoring the documentation of the data collection process.\n\n\nWilliam Thengs Egeli\n3rd year Bachelor student (at the time of the project).\nWilliam’s contributions include:\n\nExecuting the data collection strategy.\nContributing to the development and refinement of the survey questions.\nContributing to the authoring of the theoretical framework and research design.\n\n\n\n\n\n\nZainab Ali\n2nd year Bachelor student (at the time of the project).\nZainab’s contributions include:\n\nExecuting the data collection strategy.\nContributing to the development and refinement of the survey questions."
+  },
+  {
+    "objectID": "collection.html",
+    "href": "collection.html",
+    "title": "Data Collection and Recruitment",
+    "section": "",
+    "text": "To collect responses for our survey, we used two main recruitment arenas targeting young people."
+  },
+  {
+    "objectID": "collection.html#recruitment-through-high-schools",
+    "href": "collection.html#recruitment-through-high-schools",
+    "title": "Data Collection and Recruitment",
+    "section": "Recruitment Through High Schools",
+    "text": "Recruitment Through High Schools\nFirst, we reached out to upper secondary school teachers. We obtained their contact information through school websites, as well as by contacting our own former teachers. We asked them to distribute the survey to their students, which allowed us to reach a large number of respondents within our target group."
+  },
+  {
+    "objectID": "collection.html#open-day-at-the-university-of-stavanger",
+    "href": "collection.html#open-day-at-the-university-of-stavanger",
+    "title": "Data Collection and Recruitment",
+    "section": "Open Day at the University of Stavanger",
+    "text": "Open Day at the University of Stavanger\nThe second part of our data collection took place during the Open Day event at the University of Stavanger on March 3rd, 2026. This event is organized for high school seniors, where the university presents its study programs through stands and activities across campus. Student organizations also participate.\nDuring the event, we set up two stands: one representing the political science program and one representing its student association. The data collection was carried out by our group of six researchers in collaboration with the student association Statsviterne UiS (The Political Science Student Association), who helped us staff the stands throughout the day."
+  },
+  {
+    "objectID": "collection.html#visual-identity-and-credibility",
+    "href": "collection.html#visual-identity-and-credibility",
+    "title": "Data Collection and Recruitment",
+    "section": "Visual Identity and Credibility",
+    "text": "Visual Identity and Credibility\nWe actively engaged with visitors and handed out flyers containing a QR code linking directly to our survey. The flyers were designed in collaboration with the university to give the survey a more official appearance and strengthen its credibility. For the same reason, we wore t-shirts with the University of Stavanger logo, which contributed to presenting the project as more trustworthy and legitimate.\n\n\n\nFigure 1: The flyer used in the data collection process"
+  },
+  {
+    "objectID": "collection.html#field-strategies",
+    "href": "collection.html#field-strategies",
+    "title": "Data Collection and Recruitment",
+    "section": "Field Strategies",
+    "text": "Field Strategies\nTo maximize participation, we used several practical strategies throughout the day. We positioned team members outside lecture halls where visiting students attended introductory presentations, allowing us to reach many students at once as they exited. In addition, we placed flyers in high-traffic areas such as the cafeteria, common areas, bulletin boards, and restroom doors.\nAt our stands, we also offered snacks and cake to attract attention and encourage interaction. These efforts helped us engage a large number of students and increased the likelihood that they would scan the QR code and complete the survey."
+  },
+  {
+    "objectID": "collection.html#sample-composition",
+    "href": "collection.html#sample-composition",
+    "title": "Data Collection and Recruitment",
+    "section": "Sample Composition",
+    "text": "Sample Composition\nWhile the survey was distributed to teachers across different regions of Norway, we acknowledge that the majority of respondents are from South-Western Norway, specifically the Rogaland area. This is primarily due to the extensive data collection carried out during the Open Day event at the University of Stavanger."
+  },
+  {
+    "objectID": "loyalty.html",
+    "href": "loyalty.html",
+    "title": "Psychological Perspective on Opinion Framing",
+    "section": "",
+    "text": "From a psychological perspective, people often rely on their existing thoughts and views when forming opinions. In some cases, this happens automatically, but in others we consciously consider which arguments are relevant. Framing influences which thoughts are available, considered relevant and easy to recall. The stronger or more relevant a frame appears, the more likely it is to affect our opinions (Chong & Druckman, 2007).\nIn this case, the youths will either read Arbeiderpartiet (The Labour Party) or Fremskrittspartiet (The Progress Party) in a question related to inheritance tax: …believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?\nIn this scenario, the respondents might automatically choose their answer based on the party that is mentioned. This emphasizes that we often tend to use thoughts that are available and easy to recall. Sometimes this happens automatically, but at the end of the day, framing influences which thoughts seem most relevant."
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "Results and Analysis",
+    "section": "",
+    "text": "(IKKE FERDIG)\n(legg til predictions summary graf også)"
+  },
+  {
+    "objectID": "results.html#robustness-check",
+    "href": "results.html#robustness-check",
+    "title": "Results and Analysis",
+    "section": "Robustness Check",
+    "text": "Robustness Check"
   }
 ]
