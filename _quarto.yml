@@ -18,8 +18,6 @@ website:
         menu:
           - text: "Theory and Research Design"
             href: background.qmd
-          - text: "Framing Theory"
-            href: loyalty.qmd
           - text: "Survey Design"
             href: surveydesign.qmd
           - text: "Data Collection"
