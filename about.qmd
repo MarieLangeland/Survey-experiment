@@ -36,7 +36,7 @@ Awaatef's contributions include:
 
 -  Contributing to the development and refinement of the survey questions.
 
--  Contributing to the authoring of the theoretical framework (framing theory). 
+-  Contributing to the authoring of the theoretical framework. 
 
 -  Authoring the project information and introductory content for the homepage.
 
@@ -66,8 +66,6 @@ Marie's contributions include:
 -  Performing the statistical analysis and data visualization in R.
 
 -  Building and managing the Quarto website for the project.
-
--  Contributing to the authoring of the theoretical framework.
 
 -  Authoring the methodology and experimental design section.
 
@@ -118,6 +116,8 @@ Zainab's contributions include:
 -  Executing the data collection strategy.
 
 -  Contributing to the development and refinement of the survey questions.
+
+-  Contributing to the authoring of the theoretical framework. 
 
 :::
 

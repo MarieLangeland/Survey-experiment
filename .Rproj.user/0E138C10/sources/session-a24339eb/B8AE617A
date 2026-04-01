@@ -3,7 +3,7 @@
     "path": "C:/Users/lange/OneDrive - Universitetet i Stavanger/6. semester/Survey experiment/Survey experiment/Survey experiment/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "1042307396",
+    "hash": "612620277",
     "contents": "",
     "dirty": false,
     "created": 1768904962375.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "3,3",
-        "scrollLine": "0"
+        "cursorPosition": "68,0",
+        "scrollLine": "53"
     },
     "folds": "",
-    "lastKnownWriteTime": 1775037206,
+    "lastKnownWriteTime": 1775040127,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1775037206298,
+    "last_content_update": 1775040127906,
     "read_only": false,
     "read_only_alternatives": []
 }

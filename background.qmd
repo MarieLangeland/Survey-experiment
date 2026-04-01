@@ -5,8 +5,7 @@ authors:
     url: https://www.linkedin.com/in/william-thengs-egeli-4204b8356
   - name: Awaatef Hassan
     url: https://www.linkedin.com/in/awaatef-abdullah-hassan-6b1386345
-  - name: Marie Langeland
-    url: https://www.linkedin.com/in/marie-langeland
+  - name: Zainab Ali
 format: html
 bibliography: references.bib
 csl: apa.csl
