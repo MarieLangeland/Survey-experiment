@@ -1,0 +1,55 @@
+@article{entman1993,
+author = {Entman, Robert},
+year = {1993},
+month = {12},
+pages = {51-58},
+title = {Framing: Toward Clarification of A Fractured Paradigm},
+volume = {43},
+journal = {The Journal of Communication},
+doi = {10.1111/j.1460-2466.1993.tb01304.x}
+}
+
+@article{chong2007,
+ ISSN = {00030554, 15375943},
+ URL = {http://www.jstor.org/stable/27644476},
+ author = {Dennis Chong and James N. Druckman},
+ journal = {The American Political Science Review},
+ number = {4},
+ pages = {637--655},
+ publisher = {[American Political Science Association, Cambridge University Press]},
+ title = {Framing Public Opinion in Competitive Democracies},
+ urldate = {2026-03-21},
+ volume = {101},
+ year = {2007}
+}
+
+@book{iyengar1987,
+  author    = {Iyengar, Shanto and Kinder, Donald R.},
+  year      = {1987},
+  title     = {News That Matters: Television and American Opinion},
+  publisher = {University of Chicago Press}
+}
+
+@article{nettasinghe2025,
+  author  = {Nettasinghe, Buddhika and Percus, Allon G. and Lerman, Kristina},
+  title   = {How out-group animosity can shape partisan divisions: A model of affective polarization},
+  journal = {PNAS Nexus},
+  volume  = {4},
+  number  = {3},
+  eid     = {pgaf082},
+  year    = {2025},
+  month   = {3},
+  doi     = {10.1093/pnasnexus/pgaf082}
+}
+
+@article{chong2007framing,
+  title = {Framing Theory},
+  author = {Chong, Dennis and Druckman, James N.},
+  journal = {Annual Review of Political Science},
+  volume = {10},
+  number = {1},
+  pages = {103--126},
+  year = {2007},
+  publisher = {Annual Reviews},
+  doi = {10.1146/annurev.polisci.10.072805.103054}
+}

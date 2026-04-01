@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "ec24c2a4"
+  },
+  "about.qmd": {
+    "about.html": "8b87040e"
+  },
+  "endamer.qmd": {
+    "endamer.html": "3e696c67"
+  },
+  "info.qmd": {
+    "info.html": "83f74f1f"
+  },
+  "merinfo.qmd": {
+    "merinfo.html": "81619f6b"
+  },
+  "Background.qmd": {
+    "Background.html": "7f9cc187"
+  },
+  "surveydesign.qmd": {
+    "surveydesign.html": "966e03d9"
+  },
+  "results.qmd": {
+    "results.html": "d0b352ff"
+  },
+  "collection.qmd": {
+    "collection.html": "6744b1db"
+  },
+  "loyalty.qmd": {
+    "loyalty.html": "33218684"
+  }
+}

@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: survey
+  
+lang: en
+
+website:
+  title: "The Power of Party Cues"
+  navbar:
+    background: "#4B2C3E"
+    search: true
+    right:
+      - text: "Project Information"
+        href: index.qmd
+      - text: "About Us"
+        href: about.qmd
+      - text: "More"
+        menu:
+          - text: "Theory and Research Design"
+            href: background.qmd
+          - text: "Framing Theory"
+            href: loyalty.qmd
+          - text: "Survey Design"
+            href: surveydesign.qmd
+          - text: "Data Collection"
+            href: collection.qmd
+          - text: "Results"
+            href: results.qmd
+      
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+
+
+

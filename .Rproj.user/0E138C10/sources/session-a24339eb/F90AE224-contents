@@ -1,0 +1,38 @@
+---
+title: "Theory and experiment design"
+author: "William Thengs Egeli"
+format: html
+editor: visual
+bibliography: references.bib
+csl: apa.csl
+---
+
+## Background
+
+The purpose of the survey was to examine whether individuals' attitudes toward a political issue were influenced by which political party it was associated with. In other words: are opinions about policy proposals affected by who presents the proposal, when the content of the proposal is otherwise identical?
+
+## Study design
+
+To answer this research question, we conducted an experiment. Since we wanted to determine whether the party promoting a proposal influences respondents' attitudes toward it, we needed to select an issue on which both parties' actual positions are aligned. It was also important that a considerable (political) distance existed between the two parties. This gives us a better basis for assessing whether the results that follow are actually due to the proposal's association with the party.
+
+The political issue chosen was inheritance tax, and the Labour Party (Arbeiderpartiet) and the Progress Party (Fremskrittspartiet) were selected as the two political parties. Inheritance tax has proven to be a latent political issue — including among our target group. We considered these choices well suited, partly because they are a) engaging enough to motivate respondents to participate in the survey, and b) an issue on which Labour and the Progress Party are not necessarily perceived as being in agreement at the outset. Furthermore, Labour and the Progress Party are in reality in agreement on the proposal, and therefore also satisfy this requirement.
+
+To test our hypotheses, we developed a simple survey design in the form of an experiment. Respondents were sent or presented with a QR code leading to a website, where they were randomly assigned (50% probability each) to identical surveys, differing only in our experimental stimulus. The sole difference is therefore whether the claim about inheritance tax is attributed to Labour or the Progress Party. The treatment stimulus was administered by presenting the claim, followed by the question: *"\[The Labour Party / The Progress Party\] believes that there should be no fee or tax on inheriting large assets. To what extent do you agree or disagree with this statement?"*, where 1 = Strongly agree and 5 = Strongly disagree. In addition, respondents were asked standard demographic control variables common in political surveys: gender, place of residence, age, media use, and political interest. Respondents also indicated their preferred political party: *Which party do you feel most closely affiliated with?*
+
+There is a broad literature on the effects of framing [e.g. @entman1993; @chong2007; @iyengar1987 for a more political orientation]. In line with these prior empirical findings, we expected individuals with an affiliation with or positive perceptions of the party linked to the claim to be more favorable toward the proposal presented. The opposite would be the case for those assigned the alternative version of the survey — i.e., the version associated with their non-preferred party.
+
+Two concrete hypotheses can be derived from this:
+
+**H1:** Voters who identify Labour as the party they feel most closely affiliated with will be more favorable toward the proposal when Labour is named as its advocate.
+
+**H2:** Voters who identify the Progress Party as the party they feel most closely affiliated with will be more favorable toward the proposal when the Progress Party is named as its advocate.
+
+Support toward these hypotheses also stem from the research on affective polarization; in-group favoritism and out-group animosity, respectively. Indeed, \@nettasinghe2025 emphasize how this bias in trust and attachment influences decisions both in political and non-political contexts. Additionally, their model point to an interesting theory in how the framing of likeness, as opposed to the differences between political actors, could be beneficial for decreasing polarization. This is in contrast to some previous notions, e.g. in regards to echo-chambers. For our purposes these findings are intriguing, as we in practice investigate how the two parties - of whom are not perhaps intuitively perceived as aligned on the issue. An bigger emphazis on what constitutes the consensus among the parties, could according to this theory prove helpful from a polarization perspective. Whether this would be fruitful for the platform and political gain of the parties themselves are less certain.
+
+Furthermore, we also expected the overall support for inheritance tax to be lower for parties on the right, while parties on the left showing more support for the policy. The Labour Party should therefore in general, according to our prediction, be less favourable toward the proposal than voters of the Progress Party. This would conform to the expectations derived from their ideological positions.
+
+[Connect with me on LinkedIn](https://www.linkedin.com/in/william-thengs-egeli-4204b8356)
+
+## \## References
+
+## 

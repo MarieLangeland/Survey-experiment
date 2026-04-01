@@ -1,0 +1,91 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1111/j.1460-2466.1993.tb01304.x",
+            "author": [
+                {
+                    "family": "Entman",
+                    "given": "Robert"
+                }
+            ],
+            "container-title": "The Journal of Communication",
+            "id": "entman1993",
+            "issued": {
+                "date-parts": [
+                    [
+                        1993,
+                        12
+                    ]
+                ]
+            },
+            "page": "51-58",
+            "title": "Framing: Toward clarification of a fractured paradigm",
+            "title-short": "Framing",
+            "type": "article-journal",
+            "volume": "43"
+        },
+        {
+            "ISSN": "00030554, 15375943",
+            "URL": "http://www.jstor.org/stable/27644476",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2026,
+                        3,
+                        21
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Chong",
+                    "given": "Dennis"
+                },
+                {
+                    "family": "Druckman",
+                    "given": "James N."
+                }
+            ],
+            "container-title": "The American Political Science Review",
+            "id": "chong2007",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "page": "637-655",
+            "publisher": "[American Political Science Association, Cambridge University Press]",
+            "title": "Framing public opinion in competitive democracies",
+            "type": "article-journal",
+            "volume": "101"
+        },
+        {
+            "author": [
+                {
+                    "family": "Iyengar",
+                    "given": "Shanto"
+                },
+                {
+                    "family": "Kinder",
+                    "given": "Donald R."
+                }
+            ],
+            "id": "iyengar1987",
+            "issued": {
+                "date-parts": [
+                    [
+                        1987
+                    ]
+                ]
+            },
+            "publisher": "University of Chicago Press",
+            "title": "News that matters: Television and american opinion",
+            "title-short": "News that matters",
+            "type": "book"
+        }
+    ],
+    "project_biblios": []
+}
