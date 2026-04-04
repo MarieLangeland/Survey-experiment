@@ -74,9 +74,7 @@ model8 <- lm(tax ~ treatment*party, data = surveyy)
 
 ## Our Survey
 
-![Bildebeskrivelse](stortinget.jpg)
-*Stortinget. Source: [Partiguide for videregående](https://undervisning.stortinget.no/partier/partiguide-for-videregaende/)*
-
+![](stortinget.jpg)
 
 We - six 2nd and 3rd year political science students at the University of Stavanger - wanted to find out how young people's opinions are shaped by political parties. Do people respond to the policy itself, or to the party presenting it? 
 
@@ -86,9 +84,14 @@ The aim of this survey was to find out if - and how - responses vary depending o
 
 ## Setting Up the Experiment
 
-We knew early on that we wanted to explore how the political party presenting a policy affects people's opinions. We chose Ap and Frp to be the two parties presenting the policy, because they are (at the time of this survey experiment) the two largest parties in Norwegian politics, and they are at opposite sides of the political spectrum [^1]. 
+We knew early on that we wanted to explore how the political party presenting a policy affects people's opinions. We chose Ap and Frp to be the two parties presenting the policy, because they are (at the time of this survey experiment) the two largest parties in Norwegian politics, and they are at opposite sides of the political spectrum. 
 
-![Parties in the Norwegian Parliament. Red rose = Ap, Blue apple = Frp](partier.webp){width=100%}
+<figure style="width:100%;">
+  <img src="partier.webp" alt="Parties in the Norwegian Parliament. Red rose = Ap, Blue apple = Frp" style="width:100%;">
+  <figcaption>
+    Parties in the Norwegian Parliament. Red rose = Ap, Blue apple = Frp. Source: <a href="https://undervisning.stortinget.no/partier/partiguide-for-videregaende/">Partiguide for videregående</a>
+  </figcaption>
+</figure>
 
 We chose **inheritance** tax as the policy to present because it had to be a policy that both Ap and Frp actually agreed on, and it is a *simple* policy. Everyone knows what **inheritance tax** is, and if for some surprising reason they do not (which would be a bit concerning), they will know what it is immediately from its name.
 
