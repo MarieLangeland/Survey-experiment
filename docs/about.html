@@ -165,82 +165,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>(IKKE FERDIG)</p>
+<style>
+.nav-tabs .nav-item {
+  margin-right: 15px !important;
+}
+
+.nav-tabs .nav-link {
+  color: #4B2C3E !important; 
+  
+  background-color: #ECF2FD !important;
+  border: 1px solid #ECF2FD !important; 
+  
+  border-radius: 4px; 
+  font-weight: 500;
+  transition: all 0.2s ease; 
+}
+
+.nav-tabs .nav-link {
+  color: #4B2C3E !important;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  color: #ECF2FD !important;
+  background-color: #4B2C3E !important;
+  border-color: #4B2C3E !important;
+}
+
+/* 4. Fikser fonten på kulepunktene så de ikke blir små/stygge */
+.tab-content ul {
+  font-size: 1.1rem !important; /* Juster tallet her hvis du vil ha den større/mindre */
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+.tab-content li {
+  margin-bottom: 10px; /* Gir litt luft mellom hvert bidrag */
+  color: #333;
+}
+
+.nav-tabs .nav-link a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+</style>
 <p>We are second- and third-year Bachelor’s students in Political Science at the University of Stavanger. This project was carried out as a voluntary project under the supervision of Associate Professor <a href="https://www.uis.no/nb/profile/carlo-michael-knotz-0">Carlo Knotz</a>.</p>
 <section id="project-members" class="level2">
 <h2 class="anchored" data-anchor-id="project-members">Project Members</h2>
-<div class="columns">
-<div class="column">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Aud</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Awaatef</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Marie</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Norman</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">William</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false" href="">Zainab</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p><strong>Aud Statle Nævdal</strong></p>
 <p>3rd year Bachelor student (at the time of the project).</p>
-<p>Aud’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Contributing to the authoring of the analysis and results section.</p></li>
+<li><p>Contributed to the development and refinement of survey questions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Contributed to the authoring of the analysis and results section.</p></li>
 </ul>
-</div><div class="column">
-<p><strong><a href="https://www.linkedin.com/in/awaatef-abdullah-hassan-6b1386345?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios">Awaatef Hassan</a></strong></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><strong><a href="https://www.linkedin.com/in/awaatef-abdullah-hassan-6b1386345">Awaatef Hassan</a></strong></p>
 <p>2nd year Bachelor student (at the time of the project).</p>
-<p>Awaatef’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Contributing to the authoring of the theoretical framework.</p></li>
-<li><p>Authoring the project information and introductory content for the homepage.</p></li>
+<li><p>Contributed to the development and refinement of survey questions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Contributed to the authoring of the theoretical framework.</p></li>
 </ul>
 </div>
-</div>
-<p><br></p>
-<div class="columns">
-<div class="column">
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p><strong><a href="https://www.linkedin.com/in/marie-langeland">Marie Langeland</a></strong></p>
 <p>3rd year Bachelor student (at the time of the project).</p>
-<p>Marie’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Developing the responsive landing page and randomization function for assigning respondents to the two survey versions.</p></li>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Creating and managing the surveys.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Managing data cleaning, including filtering and recoding variables for analysis.</p></li>
-<li><p>Performing the statistical analysis and data visualization in R.</p></li>
-<li><p>Building and managing the Quarto website for the project.</p></li>
-<li><p>Authoring the methodology and experimental design section.</p></li>
-<li><p>Contributing to the authoring of the analysis and results section.</p></li>
+<li><p>Developed the responsive landing page and implemented the randomization function for assigning respondents to the two survey versions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Created, managed, and contributed to the development and refinement of the surveys and survey questions.</p></li>
+<li><p>Managed data cleaning, including filtering and recoding variables for analysis.</p></li>
+<li><p>Performed statistical analysis and created data visualizations in R.</p></li>
+<li><p>Built and managed the Quarto website for the project.</p></li>
+<li><p>Authored the home page.</p></li>
+<li><p>Authored the methodology and experimental design section.</p></li>
+<li><p>Contributed to the authoring of the analysis and results section.</p></li>
 </ul>
-</div><div class="column">
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p><strong><a href="https://www.linkedin.com/in/norman-sunde">Norman Sunde</a></strong></p>
 <p>2nd year Bachelor student (at the time of the project).</p>
-<p>Norman’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Authoring the documentation of the data collection process.</p></li>
+<li><p>Contributed to the development and refinement of survey questions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Authored the documentation of the data collection process.</p></li>
 </ul>
-<p><br></p>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
 <p><strong><a href="https://www.linkedin.com/in/william-thengs-egeli-4204b8356">William Thengs Egeli</a></strong></p>
 <p>3rd year Bachelor student (at the time of the project).</p>
-<p>William’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Contributing to the authoring of the theoretical framework and research design.</p></li>
+<li><p>Contributed to the development and refinement of survey questions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Contributed to the authoring of the theoretical framework and research design.</p></li>
 </ul>
 </div>
-</div>
-<p><br></p>
-<div class="columns">
-<div class="column">
+<div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
 <p><strong>Zainab Ali</strong></p>
 <p>2nd year Bachelor student (at the time of the project).</p>
-<p>Zainab’s contributions include:</p>
+<p>Key contributions:</p>
 <ul>
-<li><p>Executing the data collection strategy.</p></li>
-<li><p>Contributing to the development and refinement of the survey questions.</p></li>
-<li><p>Contributing to the authoring of the theoretical framework.</p></li>
+<li><p>Contributed to the development and refinement of survey questions.</p></li>
+<li><p>Participated in the data collection process.</p></li>
+<li><p>Contributed to the authoring of the theoretical framework.</p></li>
 </ul>
-</div><div class="column">
-
+</div>
 </div>
 </div>
 
