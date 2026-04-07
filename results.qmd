@@ -76,6 +76,8 @@ mod8 <- lm(tax ~ treatment*party, data = survey)
 surveyy <- survey %>%
   filter(test_ == "Rett")
 model8 <- lm(tax ~ treatment*party, data = surveyy)
+model7 <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = survey)
+model7_ <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = surveyy)
 ```
 
 
@@ -105,11 +107,46 @@ version",
 ```
 
 
-## Robustness Check
 
 ```{R}
 #| echo: false
 #| message: false
+
+margins_summary(model = model7) %>% 
+  ggplot(aes(y = factor, x = AME, xmin = lower, xmax = upper)) +
+  geom_point(shape = 1, size = 2.5) + 
+  geom_linerange(linewidth = 0.5) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray") +
+  scale_x_continuous(labels = scales::percent, breaks = seq(-2, 2, 0.5)) + 
+  scale_y_discrete(labels = c("treatmentFrp" = "Frp Treatment",
+                              "polint" = "Political Interest",
+                              "gendermann" = "Male",
+                              "partyV" = "V",
+                              "partySV" = "SV",
+                              "partySp" = "Sp",
+                              "partyR" = "R",
+                              "partyMDG" = "MDG",
+                              "partyKrf" = "Krf",
+                              "partyH" = "H",
+                              "partyFrp" = "Frp",
+                              "domicil_num" = "Domicile",
+                              "age" = "Age")) +
+  labs(x = "",
+       y = "", 
+       caption = "95% Confidence Intervals.",
+       title = "Predicted Level of Attitudes Toward Inheritance Tax",
+       subtitle = "Effect of variables (Reference: Ap)") +
+  theme_bw() +
+  theme(text = element_text(family = "serif", size = 13))
+
+```
+
+
+## Robustness Check
+
+```{R}
+#| echo: false
+#| message: false 
 
 marginaleffects::predictions(model = model8,
                              by = c("treatment","party")) %>%
@@ -128,4 +165,43 @@ version",
   theme(text = element_text(family = "serif", size = 12),
         strip.background = element_rect(fill = "#4B2C3E", color = "#4B2C3E"), 
         strip.text = element_text(color = "white", face = "bold"))
+
 ```
+
+
+```{R}
+#| echo: false
+#| message: false
+
+margins_summary(model = model7_) %>% 
+  ggplot(aes(y = factor, x = AME, xmin = lower, xmax = upper)) +
+  geom_point(shape = 1, size = 2.5) + 
+  geom_linerange(linewidth = 0.5) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray") +
+  scale_x_continuous(labels = scales::percent, breaks = seq(-2, 2, 0.5)) + 
+  scale_y_discrete(labels = c("treatmentFrp" = "Frp Treatment",
+                              "polint" = "Political Interest",
+                              "gendermann" = "Male",
+                              "partyV" = "V",
+                              "partySV" = "SV",
+                              "partySp" = "Sp",
+                              "partyR" = "R",
+                              "partyMDG" = "MDG",
+                              "partyKrf" = "Krf",
+                              "partyH" = "H",
+                              "partyFrp" = "Frp",
+                              "domicil_num" = "Domicile",
+                              "age" = "Age")) +
+  labs(x = "",
+       y = "", 
+       caption = "95% Confidence Intervals.",
+       title = "Predicted Level of Attitudes Toward Inheritance Tax",
+       subtitle = "Effect of variables (Reference: Ap)") +
+  theme_bw() +
+  theme(text = element_text(family = "serif", size = 13))
+
+```
+
+
+
+

@@ -4,13 +4,13 @@ author: "[Marie Langeland](https://www.linkedin.com/in/marie-langeland)"
 format: html
 ---
 
-# Introduction
-(IKKE FERDIG)
-(A/B test avsnitt mangler)
+This section describes the experimental design and the composition of the survey sample. The goal of this study is to examine how party cues influence public opinion - specifically regarding inheritance tax among young people. 
 
-This section documents the experimental design and the composition of the survey sample. The goal of this study is to examine how party cues influence public opinion - specifically regarding inheritance tax among young people. 
+# A/B testing
 
-We created two different questionnaires. The respondents were randomly assigned to one of two versions: one where the inheritance tax statement was attributed to The Labour Party (Ap), and another where it was attributed to The Progress Party (Frp). In all other aspects, the two survey versions were identical. 
+To examine how party cues influence young people's opinions on inheritance tax, we implemented an **A/B test** (also called split testing). A/B testing is a controlled experimental approach in which participants are randomly assigned to one of two versions of a stimulus, allowing researchers to compare responses and determine the effect of a single change. This approach, commonly used in marketing and digital research, helps isolate the impact of specific interventions on attitudes or behaviour [^1].
+
+In this study, two versions of the survey were created. In one version, the inheritance tax statement was attributed to The Labour Party (Ap), and in the other, it was attributed to The Progress Party (Frp). Aside from the party attribution, the surveys were identical. Respondents were randomly assigned to one of the two versions, ensuring that any differences in responses could be attributed to the treatment rather than pre-existing differences between participants. 
 
 ::: {layout-ncol=2}
 ![Figure 1: Ap treatment question](aptreatment.png){group="treatment" .lightbox style="height: 350px; object-fit: contain;"}
@@ -126,13 +126,13 @@ survey <- survey %>%
 
 ## Survey Distribution
 
-To ensure random assignment to the two survey versions, we developed a landing page containing a randomization function that directed respondents to one of the two versions with equal probability. The landing page was made to be responsive, ensuring that it displayed correctly on all devices.
+To ensure random assignment to the two survey versions, we developed a landing page containing a randomisation function that directed respondents to one of the two versions with equal probability. The landing page was made to be responsive, ensuring that it displayed correctly on all devices.
 
 ![Figure 3: The survey landing page used to randomize respondents](landingpage.png){width=100% .lightbox}
 
-To verify the success of the randomization procedure, we collected background data on gender, age, domicile, social media usage, and political interest. In addition to serving as a balance check, these factors function as explanatory variables in the subsequent analysis. As expected, the answer distribution appears balanced across the two survey versions, suggesting that any observed differences in the dependent variable are likely due to the experimental treatment rather than pre-existing differences between the groups.
+To verify the success of the randomisation procedure, we collected background data on gender, age, domicile, social media usage, and political interest. In addition to serving as a balance check, these factors function as explanatory variables in the subsequent analysis. As expected, the answer distribution appears balanced across the two survey versions, suggesting that any observed differences in the dependent variable are likely due to the experimental treatment rather than pre-existing differences between the groups.
 
-Ideally, the number of respondents in each survey version should be approximately equal. As illustrated in the graph below, the final sample consisted of 315 respondents: 143 were assigned to The Progress Party (Frp) version and 172 to The Labour Party (Ap) version. Although the Ap version received 29 more respondents than the Frp version, this difference is within what can be considered normal random variation and does not indicate a failure of the randomization procedure.
+Ideally, the number of respondents in each survey version should be approximately equal. As illustrated in the graph below, the final sample consisted of 315 respondents: 143 were assigned to The Progress Party (Frp) version and 172 to The Labour Party (Ap) version. Although the Ap version received 29 more respondents than the Frp version, this difference is within what can be considered normal random variation and does not indicate a failure of the randomisation procedure.
 
 ```{R}
 #| echo: false
@@ -377,5 +377,4 @@ Group",
 
 ```
 
-
-
+[^1]: <https://online.hbs.edu/blog/post/what-is-ab-testing>
