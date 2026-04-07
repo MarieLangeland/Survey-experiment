@@ -1,8 +1,8 @@
 {
-  "hash": "d0bf5de5c548e93655b52172d17ffd84",
+  "hash": "d0a66adb7df042605064c9cfc17aa0dd",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Results and Analysis\"\nauthor: \"[Marie Langeland](https://www.linkedin.com/in/marie-langeland)\"\nformat: html\n---\n\n(IKKE FERDIG)\n\n\n(legg til predictions summary graf (average marginal effect) også)\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n## Robustness Check\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n\n\n",
+    "markdown": "---\ntitle: \"Results and Analysis\"\nauthor: \"[Marie Langeland](https://www.linkedin.com/in/marie-langeland)\"\nformat: html\n---\n\n(IKKE FERDIG)\n\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n## Robustness Check\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](results_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n\n\n",
     "supporting": [
       "results_files"
     ],

@@ -7,8 +7,6 @@ format: html
 (IKKE FERDIG)
 
 
-(legg til predictions summary graf (average marginal effect) også)
-
 ```{R}
 #| include: false 
 # Pakker
@@ -76,8 +74,8 @@ mod8 <- lm(tax ~ treatment*party, data = survey)
 surveyy <- survey %>%
   filter(test_ == "Rett")
 model8 <- lm(tax ~ treatment*party, data = surveyy)
-model7 <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = survey)
-model7_ <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = surveyy)
+mod7 <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = survey)
+model7 <- lm(tax ~ gender + age + domicil_num + polint + party + treatment, data = surveyy)
 ```
 
 
@@ -112,7 +110,7 @@ version",
 #| echo: false
 #| message: false
 
-margins_summary(model = model7) %>% 
+margins_summary(model = mod7) %>% 
   ggplot(aes(y = factor, x = AME, xmin = lower, xmax = upper)) +
   geom_point(shape = 1, size = 2.5) + 
   geom_linerange(linewidth = 0.5) +
@@ -173,7 +171,7 @@ version",
 #| echo: false
 #| message: false
 
-margins_summary(model = model7_) %>% 
+margins_summary(model = model7) %>% 
   ggplot(aes(y = factor, x = AME, xmin = lower, xmax = upper)) +
   geom_point(shape = 1, size = 2.5) + 
   geom_linerange(linewidth = 0.5) +
