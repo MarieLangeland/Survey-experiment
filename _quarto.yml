@@ -16,7 +16,7 @@ website:
         href: about.qmd
       - text: "More"
         menu:
-          - text: "Theory and Research Design"
+          - text: "Theory and Hypotheses"
             href: background.qmd
           - text: "Survey Design"
             href: surveydesign.qmd

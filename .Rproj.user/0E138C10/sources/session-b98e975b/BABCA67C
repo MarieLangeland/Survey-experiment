@@ -3,7 +3,7 @@
     "path": "C:/Users/lange/OneDrive - Universitetet i Stavanger/6. semester/Survey experiment/Survey experiment/Survey experiment/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "840284201",
     "contents": "",
     "dirty": false,
     "created": 1767490344852.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "9,17",
-        "scrollLine": "0"
+        "cursorPosition": "7,32",
+        "scrollLine": "2"
     },
     "folds": "",
-    "lastKnownWriteTime": 1775040296,
+    "lastKnownWriteTime": 1775642382,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1775040296288,
+    "last_content_update": 1775642382801,
     "read_only": false,
     "read_only_alternatives": []
 }
