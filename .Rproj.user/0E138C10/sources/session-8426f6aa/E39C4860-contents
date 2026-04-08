@@ -74,13 +74,16 @@ model8 <- lm(tax ~ treatment*party, data = surveyy)
 
 ## Our Survey
 
-![](stortinget.jpg)
-
 We - six 2nd and 3rd year political science students at the University of Stavanger - wanted to find out how young people's opinions are shaped by political parties. Do people respond to the policy itself, or to the party presenting it? 
 
 To answer this, we conducted a survey experiment. We created two versions of the same survey, identical in all aspects except one: towards the end, the respondents were presented with a statement about **inheritance tax**. In one version it was attributed to *Arbeiderpartiet* (the Labour Party), and in the other to *Fremskrittspartiet* (the Progress Party). 
 
 The aim of this survey was to find out if - and how - responses vary depending on which party presents the statement about **inheritance tax**. Labour Party (Ap) voters would agree more if Ap presented the statement, and Progress Party (Frp) voters would agree more if Frp presented it. We also had one additional theory: voters on the left of the political spectrum would be more skeptical when Frp presented the statement, and the same applied to right-leaning voters when Ap presented it. 
+
+This website presents the main findings of our experiment in a clear and accessible way. You can explore how party cues affect opinions and see the results broken down by different groups of respondents. This page gives a brief overview of the study, but you can also visit the other pages on the website for more detailed information on the [theories and hypotheses](background.qmd) shaping the project, the [survey design](surveydesign.qmd), [data collection](collection.qmd) process, and in-depth [results](results.qmd). If you are curious about the people behind the project, you can also visit the [about us](about.qmd) page.
+
+![](stortinget.jpg)
+
 
 ## Setting Up the Experiment
 
