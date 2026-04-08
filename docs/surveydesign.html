@@ -143,9 +143,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ab-testing" id="toc-ab-testing" class="nav-link active" data-scroll-target="#ab-testing">A/B testing</a></li>
-  <li><a href="#survey-distribution-and-descriptive-statistics" id="toc-survey-distribution-and-descriptive-statistics" class="nav-link" data-scroll-target="#survey-distribution-and-descriptive-statistics">Survey Distribution and Descriptive Statistics</a>
+  <li><a href="#survey-distribution-and-descriptive-statistics" id="toc-survey-distribution-and-descriptive-statistics" class="nav-link active" data-scroll-target="#survey-distribution-and-descriptive-statistics">Survey Distribution and Descriptive Statistics</a>
   <ul class="collapse">
+  <li><a href="#ab-testing" id="toc-ab-testing" class="nav-link" data-scroll-target="#ab-testing">A/B testing</a></li>
   <li><a href="#survey-distribution" id="toc-survey-distribution" class="nav-link" data-scroll-target="#survey-distribution">Survey Distribution</a></li>
   <li><a href="#respondents-profile" id="toc-respondents-profile" class="nav-link" data-scroll-target="#respondents-profile">Respondents Profile</a>
   <ul class="collapse">
@@ -194,8 +194,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This section describes the experimental design and the composition of the survey sample. The goal of this study is to examine how party cues influence public opinion - specifically regarding inheritance tax among young people.</p>
-<section id="ab-testing" class="level1">
-<h1>A/B testing</h1>
+<section id="survey-distribution-and-descriptive-statistics" class="level1">
+<h1>Survey Distribution and Descriptive Statistics</h1>
+<section id="ab-testing" class="level2">
+<h2 class="anchored" data-anchor-id="ab-testing">A/B testing</h2>
 <p>To examine how party cues influence young people’s opinions on inheritance tax, we implemented an <strong>A/B test</strong> (also called split testing). A/B testing is a controlled experimental approach in which participants are randomly assigned to one of two versions of a stimulus, allowing researchers to compare responses and determine the effect of a single change. This approach, commonly used in marketing and digital research, helps isolate the impact of specific interventions on attitudes or behaviour <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
 <p>In this study, two versions of the survey were created. In one version, the inheritance tax statement was attributed to The Labour Party (Ap), and in the other, it was attributed to The Progress Party (Frp). Aside from the party attribution, the surveys were identical. Respondents were randomly assigned to one of the two versions, ensuring that any differences in responses could be attributed to the treatment rather than pre-existing differences between participants.</p>
 <div class="quarto-layout-panel" data-layout-ncol="2">
@@ -219,15 +221,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="survey-distribution-and-descriptive-statistics" class="level1">
-<h1>Survey Distribution and Descriptive Statistics</h1>
 <section id="survey-distribution" class="level2">
 <h2 class="anchored" data-anchor-id="survey-distribution">Survey Distribution</h2>
 <p>To ensure random assignment to the two survey versions, we developed a landing page containing a randomisation function that directed respondents to one of the two versions with equal probability. The landing page was made to be responsive, ensuring that it displayed correctly on all devices.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="landingpage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure 3: The survey landing page used to randomize respondents"><img src="landingpage.png" class="img-fluid figure-img" style="width:100.0%" alt="Figure 3: The survey landing page used to randomize respondents"></a></p>
-<figcaption>Figure 3: The survey landing page used to randomize respondents</figcaption>
+<p><a href="landingpage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure 3: The survey landing page used to randomise respondents"><img src="landingpage.png" class="img-fluid figure-img" style="width:100.0%" alt="Figure 3: The survey landing page used to randomise respondents"></a></p>
+<figcaption>Figure 3: The survey landing page used to randomise respondents</figcaption>
 </figure>
 </div>
 <p>To verify the success of the randomisation procedure, we collected background data on gender, age, domicile, social media usage, and political interest. In addition to serving as a balance check, these factors function as explanatory variables in the subsequent analysis. As expected, the answer distribution appears balanced across the two survey versions, suggesting that any observed differences in the dependent variable are likely due to the experimental treatment rather than pre-existing differences between the groups.</p>
@@ -320,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="inheritance-tax-support-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="inheritance-tax-support-distribution">Inheritance Tax Support Distribution</h3>
 <p><strong>Question:</strong> <em>[The Labour Party / The Progress Party] believes that there should be no tax on inheriting large assets. To what extent do you agree or disagree with this statement?</em></p>
-<p><strong>Options:</strong> <em>0 = Strongly disagree, 5 = Strongly agree</em></p>
+<p><strong>Options:</strong> <em>1 = Strongly disagree, 5 = Strongly agree</em></p>
 <p>As shown in the figure below, there is noticeable variation between the two survey versions. This is particularly evident in the distribution of responses at <em>2</em> and <em>4</em>, where the frequencies differ substantially between the two groups. This pattern is consistent with the expectation that respondents’ attitudes are influenced by the party associated with the policy proposal.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -335,8 +335,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="party-affiliation-distribution" class="level3">
 <h3 class="anchored" data-anchor-id="party-affiliation-distribution">Party Affiliation Distribution</h3>
 <p><strong>Question:</strong> <em>Which political party do you feel closest to?</em></p>
-<p><strong>Options:</strong> <em>Rødt (R), Sosialistisk Venstreparti (SV), Arbeiderpartiet (Ap), Venstre (V), Kristelig Folkeparti (Krf), Senterpartiet (Sp), Høyre (H), Fremskrittspartiet (Frp), Miljøpartiet De Grønne (MDG), Other, Refusal, Don’t know</em></p>
-<p>This question was asked after the treatment, which may explain why more respondents chose The Labour Party (Ap) following the Ap treatment than following the Frp treatment, as the party was still fresh in their memory. The order of the answer options for this question was randomized, preventing one party from receiving more selections simply because it appeared first.</p>
+<p><strong>Options:</strong> <em>Rødt (R), Sosialistisk Venstreparti (SV), Arbeiderpartiet (Ap), Venstre (V), Kristelig Folkeparti (KrF), Senterpartiet (Sp), Høyre (H), Fremskrittspartiet (Frp), Miljøpartiet De Grønne (MDG), Other, Refusal, Don’t know</em></p>
+<p>This question was asked after the treatment, which may explain why more respondents chose The Labour Party (Ap) following the Ap treatment than following the Frp treatment, as the party was still fresh in their memory. The order of the answer options for this question was randomised, preventing one party from receiving more selections simply because it appeared first.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>

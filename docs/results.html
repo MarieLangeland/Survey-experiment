@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Marie Langeland">
 
-<title>Results and Analysis – The Power of Party Cues</title>
+<title>Analysis and Results – The Power of Party Cues</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -140,7 +139,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#robustness-check" id="toc-robustness-check" class="nav-link active" data-scroll-target="#robustness-check">Robustness Check</a></li>
+  <li><a href="#do-opinions-change" id="toc-do-opinions-change" class="nav-link active" data-scroll-target="#do-opinions-change">Do opinions change?</a>
+  <ul class="collapse">
+  <li><a href="#background-and-hypotheses" id="toc-background-and-hypotheses" class="nav-link" data-scroll-target="#background-and-hypotheses">Background and Hypotheses</a></li>
+  <li><a href="#analysis-of-party-cues" id="toc-analysis-of-party-cues" class="nav-link" data-scroll-target="#analysis-of-party-cues">Analysis of Party Cues</a></li>
+  <li><a href="#factors-influencing-support" id="toc-factors-influencing-support" class="nav-link" data-scroll-target="#factors-influencing-support">Factors Influencing Support</a></li>
+  <li><a href="#robustness-check" id="toc-robustness-check" class="nav-link" data-scroll-target="#robustness-check">Robustness Check</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -149,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Results and Analysis</h1>
+<h1 class="title">Analysis and Results</h1>
 </div>
 
 
@@ -157,8 +163,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
+             <p>Aud Statle Nævdal </p>
              <p><a href="https://www.linkedin.com/in/marie-langeland">Marie Langeland</a> </p>
           </div>
   </div>
@@ -172,47 +179,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>(IKKE FERDIG)</p>
+<section id="do-opinions-change" class="level1">
+<h1>Do opinions change?</h1>
+<section id="background-and-hypotheses" class="level2">
+<h2 class="anchored" data-anchor-id="background-and-hypotheses">Background and Hypotheses</h2>
+<p>While our initial findings showed a small and non-significant difference between the two survey versions, those results only reflected the overall effect of the party cue across the entire sample. This broad view does not account for the respondents’ political leanings. We must also ask: are there differences in how the party cue affects individuals depending on which political party they feel closest to?</p>
+<p>By analyzing the support for inheritance tax across party affiliations, we examine whether respondents align their views with their preferred party’s position. In theory, voters are expected to be more supportive when “their” party proposes a policy, or more skeptical when it comes from an opponent. Figure 1 illustrates the level of agreement with the statement that there should not be an inheritance tax, depending on whether the proposal was attributed to the Labour Party (Ap) or the Progress Party (Frp).</p>
+</section>
+<section id="analysis-of-party-cues" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-of-party-cues">Analysis of Party Cues</h2>
+<p>A general pattern emerges: respondents tend to report higher levels of agreement when the proposal is associated with a party they are ideologically closer to. Among respondents affiliated with Frp, support for the proposal is higher when it is attributed to Frp than when it is attributed to Ap. A similar tendency can be observed among Ap supporters, although the difference is smaller. These observations align with our first two hypotheses:</p>
+<p><strong>H1</strong>: Voters who identify the Labour Party as the party they feel most closely affiliated with will be more favourable toward the proposal when the Labour Party is named as its advocate.</p>
+<p><strong>H2</strong>: Voters who identify the Progress Party as the party they feel most closely affiliated with will be more favourable toward the proposal when the Progress Party is named as its advocate.</p>
+<p>While most groups react as expected, respondents affiliated with Høyre (H) and Kristelig Folkeparti (KrF) appear largely unaffected by the treatment, showing nearly identical support across both versions. For the remaining parties, there is a tendency toward higher support when the proposal is associated with their aligned political bloc. For instance, people feeling the closest to Sosialistisk Venstreparti (SV) and Rødt (R) express lower agreement when the proposal comes from Frp than from Ap.</p>
+<p>We also see an ideological divide: agreement is consistently lower among those who feel closest to SV and R, and notably higher among Frp and H supporters. This provides partial support for our hypotheses regarding the left-right ideological scale:</p>
+<p><strong>H3</strong>: Voters who place themselves on the right side of the left-right political scale express more negative feelings toward the proposal when the Labour Party is named as its advocate.</p>
+<p><strong>H4</strong>: Voters who place themselves on the left side of the left-right political scale express more negative feelings toward the proposal when the Progress Party is named as its advocate.</p>
+<p>However, it is important to note the vertical lines in Figure 1, which represent the 95% confidence intervals. These lines show the uncertainty in the data. Since the ‘true’ level of support in the wider population could be anywhere between these lines, we cannot say with certainty exactly how large the effect is - or if the observed differences are due to the party cue or just random chance.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="results_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 1: Predicted support by party and treatment.</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</section>
+<section id="factors-influencing-support" class="level2">
+<h2 class="anchored" data-anchor-id="factors-influencing-support">Factors Influencing Support</h2>
+<p>Figure 2 presents the estimated effects of various factors on support for the proposal. In this model, women and respondents identifying with the Labour Party (Ap) serve as the reference categories, meaning all other results are shown in comparison to these groups. Positive values indicate a positive effect on agreement with the statement (i.e., these groups are more likely to agree that there should not be an inheritance tax), while negative values indicate a negative effect on the level of agreement.</p>
+<p>The horizontal lines represent 95% confidence intervals. When a line crosses the dashed zero-line, the data does not provide enough evidence to conclude whether the factor has an effect or if the result is simply due to random noise. The ‘true’ effect size could lie anywhere along this line, meaning that if it crosses the dashed zero-line, it could potentially be zero (having no effect at all). Several of the intervals are relatively wide, indicating substantial uncertainty in these specific estimates.</p>
+<p>Overall, very few of the variables in our model show a clear, statistically certain impact on support for the proposal. Notably, the party cue itself (whether the proposal was attributed to Ap or Frp) appears to have a minimal and uncertain effect. Instead, existing party affiliation stands out as the most consistent driver of attitudes. This suggests that respondents’ underlying political values are more important than which party is presented as the sender of the proposal.</p>
+<p>Among the party groups, we see that feeling the closest to SV and R has a negative effect - meaning these respondents show lower levels of support for the statement against inheritance tax than those who feel closest to Ap. In contrast, identifying with H and Frp has a positive effect on supporting the statement. This aligns with the traditional left-right axis, where parties to the left of Ap are naturally the most positive towards inheritance tax—hence disagreeing the most with the idea that there should not be any tax on inheritance.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="results_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 2: Average marginal effects.</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</section>
 <section id="robustness-check" class="level2">
 <h2 class="anchored" data-anchor-id="robustness-check">Robustness Check</h2>
+<p>Figure 3 presents a robustness check where respondents who failed to correctly recall which party was associated with the proposal were excluded. The goal is to determine if the results remain consistent when excluding individuals who did not pay attention to the party cue, or who may have simply clicked through the survey at random.</p>
+<p>The overall pattern remains largely consistent with Figure 1, though some minor shifts occur when excluding respondents who failed the manipulation check. For those feeling closest to MDG, the difference between the survey versions practically disappears. For respondents feeling closest to Ap, the direction of the effect actually reverses—showing slightly more support when the statement is attributed to Frp—though this difference is still minimal. Ultimately, the wide confidence intervals across categories indicate that the ‘true’ effects remain uncertain. This suggests that while the main patterns persist, the impact of the party cue is weak, and the results should be interpreted with caution.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="results_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 3: Predicted support by party and treatment (robustness check).</figcaption>
 </figure>
 </div>
 </div>
 </div>
+<p>Figure 4 shows that the overall effects of the variables remain relatively stable when the sample is limited to “attentive” respondents. Party affiliation continues to be a stronger predictor of attitudes than the framing treatment, which remains small and uncertain. The most notable change is that the estimates for H and R now cross the zero-line, while SV and Frp still show clear effects compared to Ap. While the uncertainty in these estimates may have increased due to the reduced sample size (from 315 to 231), we cannot determine with certainty if this is the case.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="results_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Figure 4: Average marginal effects (robustness check).</figcaption>
 </figure>
 </div>
 </div>
 </div>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Taken together, the results provide partial support for the hypotheses. There are indications that respondents evaluate proposals more favourably when they are attributed to their preferred party, which aligns with <strong>H1</strong> and <strong>H2</strong>. We also see tendencies consistent with <strong>H3</strong> and <strong>H4</strong>, as left- and right-wing voters react differently based on the messengers.</p>
+<p>However, these patterns are not consistently strong, and the high degree of uncertainty makes it difficult to draw firm conclusions about the exact size of the effects, or whether a true effect exists at all. In summary, party cues may have a small impact on attitudes, but the effect is modest. A person’s political stance and what party they identify with the most appear to be more decisive in determining their view on inheritance tax than which party happens to be proposing the policy.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
